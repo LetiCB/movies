@@ -1,0 +1,33 @@
+.navbar-container {
+    margin: 0;
+    padding: 15px;
+    background-color: #910C00;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo img{
+    max-width: 75px;
+    height: auto;
+}
+
+.menu-items {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.item {
+    padding-left: 10%;
+    color: #f1dcdc;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}

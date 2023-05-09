@@ -1,0 +1,38 @@
+.footer-container {
+    margin: 0;
+    padding: 15px 0px;
+    background-color: #E2B808;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.social-media {
+    width: 100%;
+    color: #910C00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-media div{
+    font-size: 2.3rem;
+    background: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    width: 100%;
+    margin: 10px auto 0px;
+    color: #910C00;
+    font-size: 0.7rem;
+}
+
