@@ -8,6 +8,7 @@ export default function Footer() {
     return (
         <>
             <div className="footer-container">
+                <p>Let's connect!</p>
                 <div className="social-media">
                     <div><i className="fa-brands fa-facebook icons"></i></div>
                     <div><i className="fa-brands fa-instagram icons"></i></div>

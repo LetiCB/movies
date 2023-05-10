@@ -5,8 +5,16 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
+    /* position: absolute;
+    bottom: 0px; */
+}
+.footer-container p {
+    margin: 20px auto;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
 }
 .social-media {
     width: 100%;
@@ -30,8 +38,7 @@
 }
 
 .copyright {
-    width: 100%;
-    margin: 10px auto 0px;
+    margin: 10px auto;
     color: #910C00;
     font-size: 0.7rem;
 }

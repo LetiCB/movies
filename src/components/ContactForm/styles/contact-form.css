@@ -1,0 +1,90 @@
+.form-container {
+    margin: 3% auto;
+    padding: 3%;
+    width: 60%;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #640800;
+}
+
+.contact-form {
+    margin: 0px auto;
+}
+.form-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact-input {
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #BD716C;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+}
+.contact-input:focus {
+    border: 3px solid #910C00;
+    outline: none;
+}
+.contact-textarea{
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #BD716C;
+    border-radius: 5px;
+    height: 120px;
+    outline: none;
+}
+.contact-textarea:focus {
+    border: 3px solid #910C00;
+    outline: none;
+}
+
+.btn {
+    margin: 10px auto;
+    width: 150px;
+    background: #B82518;
+    background-image: -webkit-linear-gradient(top, #B82518, #910C00);
+    background-image: -moz-linear-gradient(top, #B82518, #910C00);
+    background-image: -ms-linear-gradient(top, #B82518, #910C00);
+    background-image: -o-linear-gradient(top, #B82518, #910C00);
+    background-image: linear-gradient(to bottom, #B82518, #910C00);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #BD716C;
+    background-image: -webkit-linear-gradient(top, #BD716C, #B82518);
+    background-image: -moz-linear-gradient(top, #BD716C, #B82518);
+    background-image: -ms-linear-gradient(top, #BD716C, #B82518);
+    background-image: -o-linear-gradient(top, #BD716C, #B82518);
+    background-image: linear-gradient(to bottom, #BD716C, #B82518);
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+
+/* .top {
+    background-image: repeating-linear-gradient(45deg, #910C00, #910C00 10px, #E2B808 10px, #E2B808 20px);
+}
+.bottom {
+    background-image: repeating-linear-gradient(135deg, #910C00, #910C00 10px, #E2B808 10px, #E2B808 20px);
+} */
+
