@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    data: []
+    data: [],
+    filteredData: [],
 }
 
 export const moviesSlice = createSlice({
@@ -9,11 +10,22 @@ export const moviesSlice = createSlice({
     initialState,
     reducers:{
         loadMoviesData:(state,action) =>{
-            state.data = action.payload
-        }
+            state.data = action.payload;
+            state.filteredData = action.payload; // Initialize filteredData with all movies
+        },
+        filterDataByActor: (state, action) => {
+            const query = action.payload.toLowerCase(); 
+            state.filteredData = state.data.filter((movie) => movie.actor.toLowerCase().includes(query)
+            );
+        },
+        filterDataByCharacter: (state, action) => {
+            const query = action.payload.toLowerCase(); 
+            state.filteredData = state.data.filter((movie) => movie.name.toLowerCase().includes(query)
+            );
+        },
     }
 })
 
-export const {loadMoviesData} = moviesSlice.actions
+export const {loadMoviesData, filterDataByActor, filterDataByCharacter} = moviesSlice.actions
 
 export default moviesSlice.reducer
