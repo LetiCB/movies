@@ -6,6 +6,8 @@ import HarryPotterSpecial from "../../components/HarryPotter";
 import { fillHarryCard } from "../../utils/helpers";
 import "./styles/home.css"
 import Search from "../../components/Search";
+import AboutHP from "../../components/AboutHP";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -20,11 +22,15 @@ export default function Home() {
         dispatch(filterDataByActor(query));
     };
 
+    let aboutHPData = useSelector((store)=> store.aboutHP.data);
+    console.log(aboutHPData);
 
     return(
         <>
         <Search onSearch={handleSearch} />
         <HarryPotterSpecial/>
+        <AboutHP intro={aboutHPData.intro} />
+        <div className="read-more"><Link to={"/abouthp"}>Learn more about The Harry Potter Series</Link></div>
         <div className="cards-container">
             {searchQuery === "" ? (
             movies.slice(0, 25).map(fillHarryCard)
