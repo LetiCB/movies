@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import { useDispatch } from "react-redux";
 import { loadMoviesData } from "./redux/slices/movies/moviesSlice";
 import axios from "axios";
+import AboutHPPage from "./pages/AboutHP";
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/abouthp" element={<AboutHPPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
