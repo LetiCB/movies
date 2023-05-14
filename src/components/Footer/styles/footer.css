@@ -35,6 +35,13 @@
     align-items: center;
     width: 40px;
     height: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+    transition: border-color 0.3s ease;
+}
+
+.social-media div:hover {
+  border: 3px solid #910C00;
 }
 
 .copyright {
