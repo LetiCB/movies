@@ -1,0 +1,9 @@
+.read-more {
+    margin: 0px auto 15px;
+    width: 70%;
+    color:#bc8383;
+    text-align: right;
+}
+.read-more a {
+    color:#bc8383;
+}
