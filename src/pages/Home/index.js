@@ -27,10 +27,11 @@ export default function Home() {
 
     return(
         <>
-        <Search onSearch={handleSearch} />
+        
         <HarryPotterSpecial/>
         <AboutHP intro={aboutHPData.intro} />
         <div className="read-more"><Link to={"/abouthp"}>Learn more about The Harry Potter Series</Link></div>
+        <Search onSearch={handleSearch} />
         <div className="cards-container">
             {searchQuery === "" ? (
             movies.slice(0, 25).map(fillHarryCard)
