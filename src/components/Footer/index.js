@@ -17,7 +17,7 @@ export default function Footer() {
                     <div><i className="fa-brands fa-twitter icons"></i></div>
                     <div><i className="fa-solid fa-envelope"></i></div>
                 </div>
-                <div className="copyright">The Open Movie Database | API by Brian Fritz</div>
+                <div className="copyright">HP-API | API created by Beth and maintained by Kostas</div>
             </div>
         </>
     )
