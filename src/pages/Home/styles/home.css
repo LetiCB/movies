@@ -6,3 +6,12 @@
     align-items: center;
     justify-content: center;
 }
+.read-more {
+    margin: 0px auto 35px;
+    width: 70%;
+    color:#bc8383;
+    text-align: right;
+}
+.read-more a {
+    color:#bc8383;
+}
